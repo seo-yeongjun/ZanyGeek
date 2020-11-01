@@ -3,15 +3,23 @@ body{
     margin: 0px;
     font-size:20px;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
+    background-color: #EDEDED;
+}
+body:not(.Top-bar){
+    position: relative;
+    top: 190px;
 }
 .Top-bar{
-    display:flex;
+    width:100%;
+    top:0px;
     justify-content: space-between;
-    background-color: black;
+    background-color: #2A2A2A;
     color:white;
     align-items: center;
+    position: relative;
+    position:fixed;
+    display:flex;
 }
-
 .Top-bar__Ny{   margin:10px;
     display:flex;
     align-items: center;
@@ -30,9 +38,8 @@ body{
 }
 .Top-bar__Ny > code{
     margin:4px;
-}
-code{
-    font-size:15px;
+    position: relative;
+    right:-10px;
 }
 .Wellcome__SMALL{
     width:50%;
@@ -55,7 +62,7 @@ code{
     flex-direction: column;
     align-items: center; 
 }
-input{
+input:not(.darkmode){
     padding:15px;
     border-top: none;
     border-left: none;
@@ -77,4 +84,18 @@ button{
 }
 .Password-form>span{
     margin:45px;
+}
+input:focus{
+    outline:none;
+}
+button:focus{
+    outline: none;
+}
+.darkmode{
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
 }

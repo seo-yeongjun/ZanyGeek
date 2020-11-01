@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZanyGeek</title>
     <link rel="stylesheet" href="index.css">
+    <script src="Contents.js"></script>
+
 </head>
 
 <body>
     <div class="Top-bar">
         <div class="Top-bar__Ny">
-            <code>fputs(":)",stdout);</code>
+            <input class="darkmode" id="darkmode" type="button" value='fputs("Bright",stdout);' onclick="dm()">
         </div>
-        <div class="Top-bar__Ny Top-bar__Ny2">
+        <div class=" Top-bar__Ny Top-bar__Ny2">
             <img class="logo" src="logo.svg">
             <h1 style="margin-top:10px; margin-bottom:10px;">Z a n y _ G e e k</h1>
         </div>
@@ -27,10 +29,10 @@
         </p>
     </header>
     <form class="Password-form">
-        <input type="password" style="width: 366px;" placeholder="Password">
-        <input type="submit" style="width: 400px;" value="Log in"></input>
-        <button class="Contents" style="width: 400px;">Contents</button>
-        <span>Password는 영준이에게 문의하세요.</span>
+        <input id="pswd" type="password" style="width: 366px;" placeholder="Password">
+        <input type="button" style="width: 400px;" value="Login" onclick="checkPswd();"></input>
+        <button class="Contents" style="width: 400px;" onclick="Contents();">Contents</button>
+        <span>Password는 영준이에게 물어보세요.</span>
     </form>
 
 </body>
