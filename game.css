@@ -4,13 +4,28 @@ body{
     margin:0px;
     width:100%;
     height:300px;
- 
     display:flex;
-    justify-content:center;
-    align-items: center;
+  
 }
 #frame_img{
     width: 100%;
     height: auto;
-    
+  
+}
+.br{
+    width:100%;
+    display:flex;
+    align-items: center;
+    top:10%;
+   
+    margin-right: 10%;
+}
+.game_bg{
+    margin-left:15%;
+}
+.game_bg_1{
+    width:172px;
+    height:172px;
+    margin-left:15%;
+    background-color:#E7DBDD;
 }

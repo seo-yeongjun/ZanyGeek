@@ -9,6 +9,8 @@ body:not(.Top-bar){
     position: relative;
     top: 190px;
 }
+a {text-decoration: none;
+    color:white;}
 .Top-bar{
     width:100%;
     top:0px;
