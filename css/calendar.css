@@ -12,9 +12,14 @@ table{
     font-family: 'Turret Road', cursive;
     text-align: center;
     width: 100%;
+    width: 99%;
+    border-radius: 1em;
 }
 #Month{
     font-size:30px;
+}
+#year{
+    font-size: 22px;
 }
 #sun
 {
@@ -23,6 +28,15 @@ color:red;
 #sat{
 color:blue;
 }
+#LastMonth:hover,
+#NextMonth:hover{
+    font-size:20px;
+}
 .dal{
     background-color:rgba(255,255,240,0.66);
 }
+td {
+    
+    width: 14.28%;
+}
+

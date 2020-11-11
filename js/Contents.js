@@ -1,6 +1,4 @@
-function Contents() {
-    alert('1.자주 이용하는 <사이트>모음\n2.메모장 기능\n3.사진 기능');
-}
+
 
 function checkPswd() {
     var confirmPassword = "1";
@@ -11,6 +9,9 @@ function checkPswd() {
     else {
         alert("비밀번호가 틀렸다네~");
     }
+}
+function Contents() {
+    alert('1.자주 이용하는 <사이트>모음\n2.메모장 기능\n3.사진 기능');
 }
 function dm() {
     if (document.getElementById('darkmode').value === 'fputs("Bright",stdout);') {

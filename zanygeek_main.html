@@ -3,26 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta names="keywords" content="zanygeek, new tab">
+    <meta name="description" content="ZanyGeek new tab의 메인 페이지">
+    <meta name="author" content="서영준">
     <title>ZanyGeek_main</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="zanygeek_main.css">
-    <script src="Contents.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/zanygeek_main.css">
+    <script src="js/Contents.js"></script>
+    <script src="js/index__clock.js"></script>
 </head>
 
-<body>
+<body onload="getTime()">
     <div class="Top-bar">
         <div class="Top-bar__Ny">
             <input class="darkmode" id="darkmode" type="button" value='fputs("Bright",stdout);' onclick="dm()">
         </div>
         <div class="Top-bar__Ny Top-bar__Ny2">
             <a href="zanygeek_main.html">
-                <img class="logo" src="logo.svg">
+                <img class="logo" src="icon/logo.svg">
                 <h1 style="margin-top:10px; margin-bottom:10px;">Z a n y _ G e e k</h1>
             </a>
         </div>
         <div class="Top-bar__Ny"> <span class="clock"></span>
-            <script src="index__clock.js"></script>
         </div>
     </div>
     <div class="search_h">
@@ -32,12 +34,12 @@
                     src="icon/search.png" width="" height="50" style="background-color: none;"></label>
     </div>
     </form>
-    <iframe name="main" class="main" src="calender.html" frameborder="0" scrolling="yes" height="100%"></iframe>
+    <iframe name="main" class="main" src="ex.html" frameborder="0" scrolling="yes" height="100%"></iframe>
     <div class="icon">
         <div class="icon_1">
             <div><img src="icon/study.png"></div>
             <div class="bin"></div>
-            <div><img src="icon/memo.png"></div>
+            <div><a href="ZG_MEMO.html" target="main"><img src="icon/memo.png"></a></div>
             <div class="bin"></div>
             <div><a id="music" href="https://www.genie.co.kr/player/fPlayer" target="popup"
                     onclick="window.open('https:/www.genie.co.kr/player/fPlayer','popup','width=600,height=600'); return false;">
@@ -45,9 +47,11 @@
         </div>
         <div class="icon_2">
             <div class="bin"></div>
-            <div><a id="game" href="game.html" target="main"><img src="icon/game.png"></a></div>
+            <div><a href="game.html" target="main"><img src="icon/game.png" alt="game img" title="game"></a>
+            </div>
             <div class="bin"></div>
-            <div><a id="game" href="calender.html" target="main"><img src="icon/alien.png"></a></div>
+            <div><a href="calendar.html" target="main"><img src="icon/alien.png" alt="calendar img"
+                        title="calendar"></a></div>
             <div class="bin"></div>
         </div>
     </div>

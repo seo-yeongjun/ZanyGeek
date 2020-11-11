@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta names="keywords" content="calendar">
+    <meta name="description" content="ZanyGeek_main페이지에 달력컨텐츠를 위한 페이지">
+    <meta name="author" content="서영준">
+    <title>ZanyGeek_calender</title>
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="js/calendar.js"></script>
+</head>
+
+
+<body onload="full();">
+
+    <table class="dal">
+        <tr>
+            <td colspan="7" id="year">year</td>
+        </tr>
+        <tr>
+            <td id="LastMonth"><label onclick="Last()">&lt; Last</label></td>
+            <td colspan="5" id='Month'></td>
+            <td id="NextMonth"><label onclick="Next()">Next &gt;</label></td>
+        </tr>
+        <tr>
+            <td id='sun'>SUN</td>
+            <td>MON</td>
+            <td>TUE</td>
+            <td>WED</td>
+            <td>THU</td>
+            <td>FRI</td>
+            <td id='sat'>SAT</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
