@@ -10,8 +10,8 @@ function DATE() {  //날짜표시
     const clock = document.querySelector(".date");
     const time = new Date();
     const year = time.getFullYear();
-    const month = time.getMonth();
-    const day = time.getDay();
+    const month = time.getMonth() + 1;
+    const day = time.getDate();
     clock.innerText = `${year}` + `.` + `${`${month}` < 10 ? `${0}` + `${month}` : `${month}`}` + `.` + `${`${day}` < 10 ? `${0}` + `${day}` : `${day}`}`
 }
 
