@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZanyGeek_Music</title>
+    <link rel="stylesheet" href="css/music.css">
+</head>
+
+<body>
+    <div class="player">
+        <div class="top">
+            <div class="nowmusic">
+                <div class="thumbnail">
+                    <img class="thumI" src="icon/musicThumb/1.jpg">
+                </div>
+                <div class="seek">
+                    <input type="range" class="range" min="0" max="" value="0" onchange="ChangeRange()">
+                </div>
+                <div class="music_name">
+                    <span class="name" id="name">First music</span>
+                    <span class="artist" id="artist">First Artist</span>
+                </div>
+            </div>
+            <div class="showmenu" style="display: none;">
+                <div class="music_list_1" onclick="MenuMusic(0)">
+                    <div class="thumbList"><img src="icon/musicThumb/1.jpg"></div>
+                    <div class="list_name">
+                        <span class="name">First music</span>
+                        <span class="artist">First Artist</span>
+                    </div>
+                </div>
+                <div class="music_list_2" onclick="MenuMusic(1)">
+                    <div class="thumbList"><img src="icon/musicThumb/2.jpg"></div>
+                    <div class="list_name">
+                        <span class="name">Second music</span>
+                        <span class="artist">Second Artist</span>
+                    </div>
+                </div>
+                <div class="music_list_3" onclick="MenuMusic(2)">
+                    <div class="thumbList"><img src="icon/musicThumb/3.jpg"></div>
+                    <div class="list_name">
+                        <span class="name">Third music</span>
+                        <span class="artist">Third Artist</span>
+                    </div>
+                </div>
+                <div class="music_list_4" onclick="MenuMusic(3)">
+                    <div class="thumbList"><img src="icon/musicThumb/4.jpg"></div>
+                    <div class="list_name">
+                        <span class="name">Fourth music</span>
+                        <span class="artist">Fourth Artist</span>
+                    </div>
+                </div>
+                <div class="music_list_5" onclick="MenuMusic(4)">
+                    <div class="thumbList"><img src="icon/musicThumb/5.jpg"></div>
+                    <div class="list_name">
+                        <span class="name">Fifth music</span>
+                        <span class="artist">Fifth Artist</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controller">
+            <div class="controller_top">
+                <div class="menu" onclick="change()"><img src="icon/menu.svg"></div>
+            </div>
+            <div class="controller_middle">
+                <div class="pre" onclick="PreMusic()"><img src="icon/pre.svg"></div>
+                <div class="Pause" onclick="PauseMusic()"><img src="icon/pause.svg"></div>
+                <div class="next" onclick="NextMusic()"><img src="icon/next.svg"></div>
+            </div>
+            <div class="controller_bottom">
+                <div class="play" onclick="PlayMusic()"><img src="icon/play.svg"></div>
+            </div>
+        </div>
+        <audio src="music/1.mp3" class="song"> </audio>
+        <script src="js/music.js"></script>
+</body>
+
+</html>
