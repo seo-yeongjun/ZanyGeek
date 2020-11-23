@@ -10,9 +10,9 @@ const Body = document.querySelector("body");
 var SongNum = 0;
 var SongS = [`music/1.mp3`, `music/2.mp3`, `music/3.mp3`, `music/4.mp3`, `music/5.mp3`,];
 var ThumS = [`icon/musicThumb/1.jpg`, `icon/musicThumb/2.jpg`, `icon/musicThumb/3.jpg`, `icon/musicThumb/4.jpg`, `icon/musicThumb/5.jpg`,];
-var NameS = [`First music`, `Second music`, `Third music`, `Fourth music`, `Fifth music`,];
-var ArtistS = [`First Artist`, `Second Artist`, `Third Artist`, `Fourth Artist`, `Fifth Artist`,];
-var ColorS = [`#8E3D43`, `#EB6763`, `#CDCDCD`, `#D42745`, `#F0BF60`];
+var NameS = [`ENDLESS MOTION`, `BUDDY`, `Forget Me Not`, `Life After Death`, `Goji Berry Beat`,];
+var ArtistS = [`Benjamin Tissot`, `Benjamin Tissot`, `Patrick Patrikios`, `DJ Freedem`, `Nana Kwabena`,];
+var ColorS = [`#F7F7F7`, `#FED45C`, `#CDCDCD`, `#D42745`, `#F0BF60`];
 //음악 정보를 위한 변수//
 
 function change() {

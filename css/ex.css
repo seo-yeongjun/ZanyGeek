@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D8DEF1;
+    font-size: 30px;
+    margin:0 0 0 0;
+}
+div{
+    width:100%;
+    background-color:whitesmoke;
+}

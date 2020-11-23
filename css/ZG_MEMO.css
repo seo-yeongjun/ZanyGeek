@@ -20,7 +20,12 @@ body{
     flex-direction: column;
  justify-items: center;
 }
-
+dd input:hover{
+    cursor: pointer;
+}
+dd img:hover{
+    cursor: pointer;
+}
 .todolist{
     font-family: "Google Sans",Roboto,Arial,sans-serif;
 

@@ -21,6 +21,9 @@ table{
 #year{
     font-size: 22px;
 }
+td label:hover{
+cursor: pointer;
+}
 #sun
 {
 color:red;
