@@ -11,7 +11,7 @@ function checkPswd() {
     }
 }
 function Contents() {
-    alert('1.자주 이용하는 <사이트>모음\n2.메모장 기능\n3.사진 기능');
+    alert('1.자주 이용하는 <사이트>모음\n2.메모장 기능\n3.달력\n4.구글 검색\n5.뮤직');
 }
 function dm() {
     if (document.getElementById('darkmode').value === 'fputs("Bright",stdout);') {
